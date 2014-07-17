@@ -1,1 +1,10 @@
-Test Link API 
+testlink-node-api node module brings a pure JavaScript framework to integrate TestLink tool(test management tool)
+By default TestLink providing XML-RPC.api which can be used to get the response from TestLink server.
+By using testlink-node-api we can integrate with any javaScript automation tools like Selenium-webdriver.js or webdriver.js for 
+executing automation testCases and update the Results in TestLink. It can also be integrated with BDD frameworks 
+like Cucumber.js and Yadda.js.
+
+Installation
+Node based environments. 
+
+npm install testlink-node-api

@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\brahmanandak\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\brahmanandak\\AppData\\Local\\Temp\\npm-5976-cCfQs7sB\\1405593550648-0.07633920712396502\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+13 verbose folder .
+14 info prepublish testlink-node-api@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\brahmanandak\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 8da64101-0648-0-07633920712396502-tmp-tgz tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+18 verbose lock tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz C:\Users\brahmanandak\AppData\Roaming\npm-cache\8da64101-0648-0-07633920712396502-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 8da64101-0648-0-07633920712396502-tmp-tgz tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+22 silly lockFile 8da64101-0648-0-07633920712396502-tmp-tgz tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+23 verbose tar unpack C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+24 silly lockFile d65f8828--testlink-node-api-0-0-1-package tar://C:\Users\brahmanandak\AppData\Roaming\npm-cache\testlink-node-api\0.0.1\package
+25 verbose lock tar://C:\Users\brahmanandak\AppData\Roaming\npm-cache\testlink-node-api\0.0.1\package C:\Users\brahmanandak\AppData\Roaming\npm-cache\d65f8828--testlink-node-api-0-0-1-package.lock
+26 silly lockFile 8da64101-0648-0-07633920712396502-tmp-tgz tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+27 verbose lock tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz C:\Users\brahmanandak\AppData\Roaming\npm-cache\8da64101-0648-0-07633920712396502-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry README
+32 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+33 silly gunzTarPerm extractEntry TestLinkAPI.js
+34 silly gunzTarPerm modified mode [ 'TestLinkAPI.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry TestlinkClient.js
+36 silly gunzTarPerm modified mode [ 'TestlinkClient.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry Utilities.js
+38 silly gunzTarPerm modified mode [ 'Utilities.js', 438, 420 ]
+39 silly gunzTarPerm extractEntry xmlRequest.js
+40 silly gunzTarPerm modified mode [ 'xmlRequest.js', 438, 420 ]
+41 silly lockFile d65f8828--testlink-node-api-0-0-1-package tar://C:\Users\brahmanandak\AppData\Roaming\npm-cache\testlink-node-api\0.0.1\package
+42 silly lockFile d65f8828--testlink-node-api-0-0-1-package tar://C:\Users\brahmanandak\AppData\Roaming\npm-cache\testlink-node-api\0.0.1\package
+43 silly lockFile 8da64101-0648-0-07633920712396502-tmp-tgz tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+44 silly lockFile 8da64101-0648-0-07633920712396502-tmp-tgz tar://C:\Users\brahmanandak\AppData\Local\Temp\npm-5976-cCfQs7sB\1405593550648-0.07633920712396502\tmp.tgz
+45 silly lockFile 3a52ce78- .
+46 silly lockFile 3a52ce78- .
+47 silly publish { name: 'testlink-node-api',
+47 silly publish   version: '0.0.1',
+47 silly publish   private: false,
+47 silly publish   keywords: [ 'testlink' ],
+47 silly publish   devDependencies:
+47 silly publish    { xmldom: '*',
+47 silly publish      xpath: '*',
+47 silly publish      'simpleConvert-XML': '*',
+47 silly publish      JSONPath: '*' },
+47 silly publish   scripts: { test: 'node node_modules/testlink-node-api/TestlinkClient.js' },
+47 silly publish   readmeFilename: 'README',
+47 silly publish   readme: 'testlink-node-api node module brings a pure JavaScript framework to integrate TestLink tool(test management tool)\r\nBy default TestLink providing XML-RPC.api which can be used to get the response from TestLink server.\r\nBy using testlink-node-api we can integrate with any javaScript automation tools like Selenium-webdriver.js or webdriver.js for \r\nexecuting automation testCases and update the Results in TestLink. It can also be integrated with BDD frameworks \r\nlike Cucumber.js and Yadda.js.\r\n\r\nInstallation\r\nNode based environments. \r\n\r\nnpm install testlink-node-api\r\n',
+47 silly publish   description: 'testlink-node-api node module brings a pure JavaScript framework to integrate TestLink tool(test management tool)\r By default TestLink providing XML-RPC.api which can be used to get the response from TestLink server.\r By using testlink-node-api we can integrate with any javaScript automation tools like Selenium-webdriver.js or webdriver.js for \r executing automation testCases and update the Results in TestLink. It can also be integrated with BDD frameworks \r like Cucumber.js and Yadda.js.',
+47 silly publish   _id: 'testlink-node-api@0.0.1',
+47 silly publish   _shasum: '5c97d282284e2e0938ebc16a6e863eb52869e969',
+47 silly publish   _from: '.' }
+48 verbose url raw testlink-node-api
+49 verbose url resolving [ 'https://registry.npmjs.org/', './testlink-node-api' ]
+50 verbose url resolved https://registry.npmjs.org/testlink-node-api
+51 info trying registry request attempt 1 at 16:09:10
+52 http PUT https://registry.npmjs.org/testlink-node-api
+53 http 403 https://registry.npmjs.org/testlink-node-api
+54 verbose headers { date: 'Thu, 17 Jul 2014 10:39:24 GMT',
+54 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+54 verbose headers   'content-type': 'application/json',
+54 verbose headers   'cache-control': 'max-age=30',
+54 verbose headers   'content-length': '84',
+54 verbose headers   'accept-ranges': 'bytes',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'x-served-by': 'cache-sv60-SJC3',
+54 verbose headers   'x-cache': 'MISS',
+54 verbose headers   'x-cache-hits': '0',
+54 verbose headers   'x-timer': 'S1405593563.929552,VS0,VE138',
+54 verbose headers   'keep-alive': 'timeout=10, max=50',
+54 verbose headers   connection: 'Keep-Alive' }
+55 error publish Failed PUT 403
+56 error Error: forbidden Cannot replace previously published version: 0.0.1: testlink-node-api
+56 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+56 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+56 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+56 error     at Request.EventEmitter.emit (events.js:98:17)
+56 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+56 error     at Request.EventEmitter.emit (events.js:117:20)
+56 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+56 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+56 error     at _stream_readable.js:919:16
+56 error     at process._tickCallback (node.js:419:13)
+57 error If you need help, you may report this *entire* log,
+57 error including the npm and node versions, at:
+57 error     <http://github.com/npm/npm/issues>
+58 error System Windows_NT 6.2.9200
+59 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+60 error cwd C:\Users\brahmanandak\Documents\GitHub\Node_TestLink_API
+61 error node -v v0.10.28
+62 error npm -v 1.4.9
+63 verbose exit [ 1, true ]
