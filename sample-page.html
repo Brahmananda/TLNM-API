@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf-8>
+<title></title>
+</head>
+<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+var socket = io.connect();
+
+function notification(content)
+{
+	var x= document.getElementById("storage");
+	x.innerHTML = content;
+    console.log(content);	
+}
+function testlink1(content1)
+{
+	var y= document.getElementById("storage1");
+	y.innerHTML = content1;
+    console.log(content1);	
+}
+function testlink2(content2)
+{
+	var z= document.getElementById("storage2");
+	z.innerHTML = content2;
+    console.log(content2);	
+}
+function testlink3(content3)
+{
+	var a= document.getElementById("storage3");
+	a.innerHTML = content3;
+    console.log(content3);	
+}
+
+function testlink4(content4)
+{
+	var b= document.getElementById("storage4");
+	b.innerHTML = content4;
+    console.log(content4);	
+}
+socket.on('notification', function(x) { notification(x); });	
+socket.on('testlink1', function(y) { testlink1(y); });
+socket.on('testlink2', function(z) { testlink2(z); });
+socket.on('testlink3', function(a) { testlink3(a); });
+socket.on('testlink4', function(b) { testlink4(b); });	
+
+function callserver()
+{
+	socket.emit('called');	 
+
+}	
+
+</script>
+<body>
+<h1>TestLink Node Server</h1>
+
+<fieldset><legend>Message</legend>
+	<div id="storage"></div>
+</fieldset>
+
+<fieldset><legend>TestLink Response</legend>
+	<div id="storage1"></div>
+</fieldset>
+
+<fieldset><legend>TestLink Response2</legend>
+	<div id="storage2"></div>
+</fieldset>
+
+<fieldset><legend>TestLink Response3</legend>
+	<div id="storage3"></div>
+</fieldset>
+
+<fieldset><legend>TestLink Response4</legend>
+	<div id="storage4"></div>
+</fieldset>
+
+<form name="form1" method="post" action="">
+  <input type="button"  value="Call server" onClick="callserver()">
+</form>
+</body>
+</html>
